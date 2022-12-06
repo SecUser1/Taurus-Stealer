@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Taurus", "Taurus\Taurus.vcxproj", "{2439A9EC-3720-4943-9235-538A4AD343E2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Taurus_dll", "Taurus_dll\Taurus_dll.vcxproj", "{8533021F-ED72-48C8-A1B3-EFFB3E5ADDFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2358E710-520A-4577-8C76-D07BEBC4589B}"
+	ProjectSection(SolutionItems) = preProject
+		Taurus\Config.h = Taurus\Config.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2439A9EC-3720-4943-9235-538A4AD343E2}.Debug|x64.ActiveCfg = Debug|x64
+		{2439A9EC-3720-4943-9235-538A4AD343E2}.Debug|x64.Build.0 = Debug|x64
+		{2439A9EC-3720-4943-9235-538A4AD343E2}.Debug|x86.ActiveCfg = Debug|Win32
+		{2439A9EC-3720-4943-9235-538A4AD343E2}.Debug|x86.Build.0 = Debug|Win32
+		{2439A9EC-3720-4943-9235-538A4AD343E2}.Debug|x86.Deploy.0 = Debug|Win32
+		{2439A9EC-3720-4943-9235-538A4AD343E2}.Release|x64.ActiveCfg = Release|x64
+		{2439A9EC-3720-4943-9235-538A4AD343E2}.Release|x64.Build.0 = Release|x64
+		{2439A9EC-3720-4943-9235-538A4AD343E2}.Release|x86.ActiveCfg = Release|Win32
+		{2439A9EC-3720-4943-9235-538A4AD343E2}.Release|x86.Build.0 = Release|Win32
+		{8533021F-ED72-48C8-A1B3-EFFB3E5ADDFC}.Debug|x64.ActiveCfg = Debug|x64
+		{8533021F-ED72-48C8-A1B3-EFFB3E5ADDFC}.Debug|x64.Build.0 = Debug|x64
+		{8533021F-ED72-48C8-A1B3-EFFB3E5ADDFC}.Debug|x86.ActiveCfg = Debug|Win32
+		{8533021F-ED72-48C8-A1B3-EFFB3E5ADDFC}.Debug|x86.Build.0 = Debug|Win32
+		{8533021F-ED72-48C8-A1B3-EFFB3E5ADDFC}.Release|x64.ActiveCfg = Release|x64
+		{8533021F-ED72-48C8-A1B3-EFFB3E5ADDFC}.Release|x64.Build.0 = Release|x64
+		{8533021F-ED72-48C8-A1B3-EFFB3E5ADDFC}.Release|x86.ActiveCfg = Release|Win32
+		{8533021F-ED72-48C8-A1B3-EFFB3E5ADDFC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4FF49C7-AB3E-42B4-9321-7BE1137C0FA8}
+	EndGlobalSection
+EndGlobal
